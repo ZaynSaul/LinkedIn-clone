@@ -626,6 +626,20 @@ header {
   font-size: 12px;
 }
 
+.follower-date {
+  display: flex;
+  align-items: center;
+}
+
+.follower-date span {
+  font-size: 12px;
+}
+
+.follower-image {
+  height: 20px;
+  width: 20px;
+}
+
 .post-icon {
   width: 30px;
   height: 30px;
@@ -664,6 +678,53 @@ header {
 .post-divider {
   margin: 10px 0;
   background-color: #eee;
+}
+
+.post-description p {
+  line-height: 20px;
+  word-spacing: 0px;
+  margin: 5px;
+}
+
+.post-follower-image {
+  max-width: 540px;
+}
+
+.posted-item {
+  width: 100%;
+  object-fit: contain;
+}
+
+.likes-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes-icons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comments,
+.user-like {
+  font-size: 12px;
+}
+
+.react-icons-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.post-like-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.post-like-item {
+  display: flex;
+  align-items: center;
 }
 
 .rightbar-container {
