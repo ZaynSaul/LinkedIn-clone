@@ -102,7 +102,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 10px;
+  padding: 1px;
+  font-weight: 500;
 }
 
 .nav-link {
@@ -111,7 +113,7 @@ header {
 
 .nav-icon {
   height: 24px;
-  width: 24px;
+  width: 32px;
 }
 
 .nav-text {
@@ -564,7 +566,7 @@ header {
 }
 
 .post-container {
-  min-height: 614.115px;
+  min-height: 314.115px;
   width: 540px;
   border-radius: 10px;
   background-color: var(--primary);
@@ -725,6 +727,7 @@ header {
 .post-like-item {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .rightbar-container {
@@ -840,4 +843,23 @@ header {
 .rightbar-recomendation:hover {
   background-color: #eee;
   cursor: pointer;
+}
+
+.rightbar-feed-bottom {
+  margin: 10px 0;
+}
+
+.rightbar-feed-bottom-wrapper {
+  height: 250px;
+  max-width: 315px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  -webkit-box-shadow: var(--web-kit-shadow);
+  box-shadow: var(--box-shadow-color);
+  padding: 0 12px;
+}
+
+.rightbar-hiring-img {
+  height: 250px;
+  width: 100%;
 }
