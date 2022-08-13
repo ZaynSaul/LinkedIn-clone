@@ -165,7 +165,7 @@ header {
 }
 
 .left-container {
-  flex: 2.5;
+  /* flex: 2.5; */
   height: calc(100% - 50px);
   margin-right: 20px;
   position: sticky;
@@ -440,7 +440,7 @@ header {
 }
 
 .feed-container {
-  flex: 7;
+  /* flex: 7; */
   margin-right: 20px;
 }
 
@@ -548,6 +548,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 10px 0;
+  width: 540px;
 }
 
 .feed-divider {
@@ -730,10 +731,6 @@ header {
   cursor: pointer;
 }
 
-.rightbar-container {
-  flex: 2.5;
-}
-
 .rightbar-feed-top {
   min-height: 354.917px;
   width: 315px;
@@ -862,4 +859,42 @@ header {
 .rightbar-hiring-img {
   height: 250px;
   width: 100%;
+}
+.site-map-wrapper {
+  margin: 20px 0;
+}
+.site-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-map-link {
+  font-size: 12px;
+  font-weight: 300;
+  color: #aaa;
+  margin-right: 20px;
+}
+
+.site-map-link:hover {
+  text-decoration: underline;
+}
+
+.site-map-link {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.linked-in-footer {
+  margin-top: 20px;
+}
+
+.linked-in-logo {
+  height: 15px;
+  width: 80px;
+}
+
+.linked-in-footer span {
+  font-size: 12px;
+  color: #aaa;
 }
