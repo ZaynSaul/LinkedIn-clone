@@ -481,6 +481,11 @@ header {
   width: 782px;
 }
 
+.post-resource-divider-container:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
 .show-all-resource {
   display: flex;
   justify-content: center;
@@ -493,23 +498,39 @@ header {
 }
 
 .rightbar-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 113px;
   width: 322px;
   border-radius: 10px;
   background-color: var(--primary);
   -webkit-box-shadow: var(--web-kit-shadow);
   box-shadow: var(--box-shadow-color);
-  padding: 12px;
   margin-bottom: 10px;
+}
+.rightbar-profile-wrapper {
+  /* margin: 0 10px; */
 }
 
 .rightbar-profile {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 10px;
+}
+
+.rightbar-profile span {
+  font-size: 14px;
+}
+
+.rightbar-profile img {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
 }
 .rightbar-divider {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .rightbar-feed-top {
@@ -519,14 +540,15 @@ header {
   background-color: var(--primary);
   -webkit-box-shadow: var(--web-kit-shadow);
   box-shadow: var(--box-shadow-color);
-  padding: 12px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .rightbar-feed-top-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 0;
+  margin: 10px;
 }
 
 .rightbar-feed-profile {
@@ -542,7 +564,7 @@ header {
 }
 
 .rightbar-feed-top-center {
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 
 .rightbar-feed-top-option {
@@ -598,12 +620,13 @@ header {
 }
 
 .rightbar-recomendation {
-  height: 24.54px;
-  width: 203.719px;
+  height: 44px;
+  width: 322px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  margin-top: 10px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 0px;
 }
 
 .recomendation-text {
@@ -630,16 +653,19 @@ header {
 .rightbar-feed-bottom-wrapper {
   height: 250px;
   max-width: 322px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background-color: var(--primary);
   -webkit-box-shadow: var(--web-kit-shadow);
   box-shadow: var(--box-shadow-color);
-  padding: 0 12px;
+  /* padding: 12; */
 }
 
 .rightbar-hiring-img {
   height: 250px;
-  width: 100%;
+  width: 300px;
 }
 .site-map-wrapper {
   margin: 20px 0;
@@ -708,6 +734,8 @@ footer {
 }
 
 .footer-site-map-wrapper div {
+  display: flex;
+  align-items: center;
   margin-top: 10px;
 }
 
@@ -718,6 +746,7 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-top: 10px;
+  padding: 5px;
 }
 
 .footer-text {
